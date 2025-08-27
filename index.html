@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DonaSweet - Donut Shop</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixe  d-top navbar-light bg-transparent">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-3 text-white" href="#">🍩 DonaSweet</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#best-seller">Best Seller</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero d-flex align-items-center text-center text-white">
+  <div class="overlay"></div>
+  <div class="container position-relative z-1">
+    <h5 class="mb-3" data-aos="fade-down" data-aos-delay="100">Welcome to DonaSweet</h5>
+    <h1 class="display-3 fw-bold mb-3" data-aos="fade-up" data-aos-delay="300">The Sweetest Donuts in Town</h1>
+    <p class="mb-4" data-aos="fade-up" data-aos-delay="500">Freshly baked, filled with love and creamy jams 🍓🍫</p>
+    <div data-aos="fade-up" data-aos-delay="700">
+      <a href="#best-seller" class="btn btn-light btn-lg px-4 me-2 shadow">See Menu</a>
+      <a href="#contact" class="btn btn-danger btn-lg px-4 shadow">Order Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Best Seller -->
+<section id="best-seller" class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-pink" data-aos="fade-up">Best Sellers</h2>
+    <div class="row g-4">
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="img/strwberry.png" class="card-img-top" alt="Strawberry Donut">
+          <div class="card-body">
+            <h5>Strawberry Glazed</h5>
+            <p class="text-danger fw-bold">$2.50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card product-card shadow-sm">
+          <img src="img/coklat.png" class="card-img-top" alt="Chocolate Donut">
+          <div class="card-body">
+            <h5>Choco Lava</h5>
+            <p class="text-danger fw-bold">$3.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card product-card shadow-sm">
+          <img src="img/bluberry.png" class="card-img-top" alt="Blueberry Donut">
+          <div class="card-body">
+            <h5>Blueberry Jam</h5>
+            <p class="text-danger fw-bold">$2.80</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card product-card shadow-sm">
+          <img src="img/vanila.png" class="card-img-top" alt="Blueberry Donut">
+          <div class="card-body">
+            <h5>Vanilla  </h5>
+            <p class="text-danger fw-bold">$2.80</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-pink" data-aos="fade-up">Our Donut Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card product-card shadow-sm">
+          <img src="image/donut4.jpg" class="card-img-top" alt="Donut">
+          <div class="card-body">
+            <h6>Vanilla Cream</h6>
+            <p class="text-danger fw-bold">$2.20</p>
+          </div>
+        </div>
+      </div>
+      <!-- tambahin list menu lain -->
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 text-center">
+  <div class="container" data-aos="fade-up">
+    <h2 class="fw-bold mb-3 text-pink">About Us</h2>
+    <p class="lead">We bake fresh donuts every morning with creamy jams and toppings that melt in your mouth.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5 text-center bg-light">
+  <div class="container">
+    <h2 class="fw-bold mb-3 text-pink" data-aos="fade-up">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <input type="text" class="form-control mb-3" placeholder="Your Name">
+        <input type="email" class="form-control mb-3" placeholder="Your Email">
+        <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+        <button class="btn btn-danger w-100">Send</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 DonaSweet | All Rights Reserved</p>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+</html>

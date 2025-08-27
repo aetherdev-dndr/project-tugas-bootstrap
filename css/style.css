@@ -1,0 +1,62 @@
+/* Pink Theme */
+body {
+  background: #ffe6f0;
+  color: #333;
+}
+.text-pink {
+  color: #e60073;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  min-height: 100vh; /* full screen */
+  background-image: url('/img/background.jpg'); /* ganti sesuai path gambarmu */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(230,0,115,0.5), rgba(255,192,203,0.9));
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Jelly Drip Effect */
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: url("/img/donat.png") repeat-x;
+  background-size: contain;
+}
+
+/* Navbar Scroll Effect */
+.navbar.scrolled {
+  background: rgba(230,0,115,0.9) !important;
+  transition: background 0.3s;
+}
+
+/* Product Cards */
+.product-card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card img {
+  transition: transform 0.4s ease;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(230,0,115,0.3);
+}
+.product-card:hover img {
+  transform: scale(1.1);
+}
